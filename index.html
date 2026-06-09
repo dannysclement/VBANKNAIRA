@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBANK MFV - Global Borderless Digital Banking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">VBANK <span>MFV</span></div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#performance">App Performance</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#countries">Currencies</a></li>
+            <li><a href="#security">Security</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.php" class="btn btn-outline">Login</a>
+            <a href="signup.php" class="btn btn-filled">Get Started</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge"><i class="fas fa-globe"></i> Supporting All Global Currencies</div>
+            <h1>Save, Spend, & Earn In <span>Any Currency</span></h1>
+            <p>Your ultimate borderless financial ecosystem. Recharge airtime, settle bills, fund betting accounts, manage automated high-yield target metrics, and trade smoothly across global currencies.</p>
+            
+            <div class="hero-action-row">
+                <a href="signup.php" class="btn btn-filled">Open Free Account</a>
+                <div class="store-buttons">
+                    <a href="appstore.php" class="store-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="store-btn-text"><span>Download on</span><strong>App Store</strong></div>
+                    </a>
+                    <a href="playstore.php" class="store-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="store-btn-text"><span>Get it on</span><strong>Google Play</strong></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-media">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&playlist=dQw4w9WgXcQ&loop=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="currency-marquee-section">
+        <h3>Supported Global Currencies & Regions</h3>
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/ng.png" alt="NGN"> <span>NGN (₦) Naira</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/us.png" alt="USD"> <span>USD ($) US Dollar</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/gb.png" alt="GBP"> <span>GBP (£) British Pound</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/eu.png" alt="EUR"> <span>EUR (€) Euro</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/gh.png" alt="GHS"> <span>GHS (₵) Ghana Cedi</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/ca.png" alt="CAD"> <span>CAD ($) Canadian Dollar</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/za.png" alt="ZAR"> <span>ZAR (R) SA Rand</span></div>
+                <div class="currency-tag"><img src="https://flagcdn.com/w40/ae.png" alt="AED"> <span>AED (د.إ) UAE Dirham</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="performance" class="performance-section">
+        <h2 class="section-title">How The App <span>Performs Inside</span></h2>
+        <p style="text-align: center; color: var(--text-muted); margin-top: -30px; margin-bottom: 50px;">Click the active modules below to preview our ultra-fast dashboard performance live.</p>
+        
+        <div class="performance-container">
+            <div class="app-tabs">
+                <div class="tab-control active" data-target="dashboard-view">
+                    <i class="fas fa-chart-pie"></i> Main Dashboard
+                </div>
+                <div class="tab-control" data-target="utilities-view">
+                    <i class="fas fa-bolt"></i> Bill Payments & Bills
+                </div>
+                <div class="tab-control" data-target="savings-view">
+                    <i class="fas fa-vault"></i> Spend, Save & FX Yields
+                </div>
+            </div>
+
+            <div class="app-display-window">
+                <div id="dashboard-view" class="app-view active">
+                    <div class="app-header-mock">
+                        <div>
+                            <span>Welcome back,</span>
+                            <h4>Alex J. 🇳🇬</h4>
+                        </div>
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="balance-card-mock">
+                        <p>Total Portfolio Value (USD Equiv.)</p>
+                        <h2>$14,850.<span style="font-size:16px;">45</span></h2>
+                        <div style="margin-top:15px; font-size:12px; color:var(--primary);">
+                            <i class="fas fa-arrow-trend-up"></i> +4.2% Earned Interest this month
+                        </div>
+                    </div>
+                    <div class="recent-activity-mock">
+                        <h5>Live Transaction Performance</h5>
+                        <div class="activity-row"><span>Airtime Topup (MTN)</span> <strong class="success-text">Success</strong></div>
+                        <div class="activity-row"><span>USD Auto-Save Vault</span> <strong class="success-text">Processed</strong></div>
+                        <div class="activity-row"><span>Betway Wallet Funding</span> <strong class="success-text">Instant</strong></div>
+                    </div>
+                </div>
+
+                <div id="utilities-view" class="app-view">
+                    <div class="app-header-mock">
+                        <h4>Bills & Lifestyle Payment Engine</h4>
+                    </div>
+                    <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 15px;">Zero processing delays. 99.9% Core API runtime execution.</p>
+                    <div class="utility-grid-mock">
+                        <div class="util-item"><i class="fas fa-mobile-alt"></i><span>Airtime</span></div>
+                        <div class="util-item"><i class="fas fa-wifi"></i><span>Data Bundle</span></div>
+                        <div class="util-item"><i class="fas fa-tv"></i><span>Cable TV</span></div>
+                        <div class="util-item"><i class="fas fa-gamepad"></i><span>Betting Fund</span></div>
+                    </div>
+                    <div class="billing-speed-meter">
+                        <div class="meter-fill"></div>
+                        <span style="font-size:11px; display:block; margin-top:5px; color:var(--primary);"><i class="fas fa-bolt"></i> Average execution time: 0.8 seconds</span>
+                    </div>
+                </div>
+
+                <div id="savings-view" class="app-view">
+                    <div class="app-header-mock">
+                        <h4>Wealth Vault Infrastructure</h4>
+                    </div>
+                    <div class="vault-card-mock target-vault">
+                        <div><strong>Target Savings Goal</strong><p>Dec 2026 Cruise Milestone</p></div>
+                        <span class="vault-percentage">78% Done</span>
+                    </div>
+                    <div class="vault-card-mock fixed-vault">
+                        <div><strong>Fixed Deposit Account</strong><p>Locked @ 14.5% APY yield</p></div>
+                        <span class="vault-badge">Active</span>
+                    </div>
+                    <div class="vault-card-mock dollar-vault">
+                        <div><strong>Global FX Asset Class</strong><p>Earn & Save in Dollars ($)</p></div>
+                        <span class="vault-badge-emerald">Growing Daily</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">How It <span>Works</span></h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3>Create Account</h3>
+                <p>Register safely on our responsive cross-border onboarding portal in under 3 minutes.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3>Configure Currency</h3>
+                <p>Open sub-wallets instantly across NGN, USD, GBP or your locally selected regional token choice.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3>Transact & Grow</h3>
+                <p>Execute instant lifestyle utility payouts or automate your multi-tiered high-yielding dollar savings asset plans.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title">Tailored Core <span>Features</span></h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Airtime & Data</h3>
+                <p>Instant processing over zero third-party agent operational friction fees.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tv"></i>
+                <h3>Cable Integrations</h3>
+                <p>Direct premium streaming/broadcasting programmatic settlement frameworks.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Betting Wallet Fund</h3>
+                <p>Lightning-speed betting account balance adjustments for major service networks.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-piggy-bank"></i>
+                <h3>Spend & Save</h3>
+                <p>Set aside automated transaction-derived micro-investments smoothly as you spend.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-bullseye"></i>
+                <h3>Target Metrics</h3>
+                <p>Structure smart, goal-driven locked-saving schedules with daily interest growth updates.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-lock"></i>
+                <h3>Fixed Asset Deposits</h3>
+                <p>Lock residual working liquid funds down under market-leading risk-hedged yield environments.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-comments-dollar"></i>
+                <h3>Earn in USD Accounts</h3>
+                <p>Deconstruct local currency depreciation elements by banking directly inside fully compliant dollar frameworks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="security" class="security">
+        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80" alt="Bank-Grade Security Architecture" class="security-img">
+        <div class="security-content">
+            <div class="security-badge-label">
+                <i class="fas fa-shield-alt"></i> Bank-Grade Enterprise Encryption
+            </div>
+            <h2>Secured with the Most Dynamic <span>Protective Ecosystem</span></h2>
+            <p style="color: var(--text-muted); margin: 20px 0; line-height: 1.8;">
+                Deploying modern AES-256 state-driven data protection mechanisms, automated machine learning fraud monitors, and end-to-end token authorization variables to shield your wealth layers every single second.
+            </p>
+            <ul class="security-checklist">
+                <li><i class="fas fa-check-circle"></i> NDIC Regulated Secure Operations</li>
+                <li><i class="fas fa-check-circle"></i> Multi-factor Tokenized 2FA Gateways</li>
+                <li><i class="fas fa-check-circle"></i> Biometric Device Authentication Handshakes</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">VBANK <span>MFV</span></div>
+            <p class="footer-text">The premium borderless digital asset layer constructed for modern retail finance.</p>
+        </div>
+        <div class="copy">
+            &copy; 2026 VBANK MFV Banking Institution. All rights reserved globally.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
